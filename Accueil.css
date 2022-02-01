@@ -1,0 +1,162 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url("fond_papier.jpg") ;
+    font-family: Arial;
+}
+
+#img1{
+    
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+figure{
+  text-align: center;
+  font-style: italic;
+  font-size: smaller;
+  text-indent: 0;
+  
+  }
+
+.box1 {
+    margin: 0 auto;
+    padding: 0px ;
+    width: 85%;
+    height:max-content;
+    background: beige;
+}
+
+.box1 h1{
+    position:relative;
+    text-align: center;
+    color: rgb(165, 26, 26);
+}
+
+nav{
+    width: 100%;
+    background-color: #424558;
+    margin: 0 auto;
+}
+
+nav > ul{
+    margin: 0px;
+    padding: 0px;
+}
+
+nav > ul::after{
+    content:"";
+    display: block;
+    clear: both;
+}
+
+nav li {
+    list-style-type: none;
+}
+
+nav > ul > li{
+    float: left;
+    position: relative;
+}
+
+nav > ul > li > a{
+    padding: 20px 30px;
+    color:#FFFFFF;
+}
+
+nav> ul> li:hover a{
+    padding: 15px 30px 20px 30px;
+}
+
+.submenu{
+    display: none;
+}
+
+nav a{
+    display: inline-block;
+    text-decoration: none;
+}
+
+nav li:hover .submenu{
+    display: inline-block;
+    position: absolute;
+    top:100%;
+    left:0px;
+    padding: 0px;
+    z-index: 1000;
+}
+
+.submenu li {
+    border-bottom: 1px solid #CCC;
+}
+
+.submenu li a{
+    padding: 15px 30px;
+    font-size: 13px;
+    color:  #222538;
+    width: 270px;
+}
+
+.accueil:hover{
+    border-top: 5px solid #BBB;
+    background-color: rgba(220, 220, 220, 0.15);
+}
+
+.page1:hover{
+    border-top: 5px solid #e44d26;
+    background-color: rgba(228, 77, 38, 0.15);
+}
+
+.page2:hover{
+    border-top: 5px solid #0070bb;
+    background-color: rgba(000, 112, 192, 0.15);
+}
+
+.page3:hover{
+    border-top: 5px solid #f1dc4f;
+    background-color: rgba(241, 211, 79, 0.15);
+}
+
+.page4:hover{
+    border-top: 5px solid #BBB;
+    background-color: rgba(220, 220, 220, 0.15);
+}
+
+.page1 .submenu{
+    background-color: rgb(230, 100, 40)
+}
+
+.page2 .submenu{
+    background-color: rgb(000, 160, 240)
+}
+
+.page3 .submenu{
+    background-color: rgb(250, 215, 100)
+}
+
+.page4 .submenu{
+    background-color: rgb(220, 220, 220)
+}
+
+.submenu li:hover a {
+    color: #EEE;
+    font-weight: bold;
+}
+
+.page1 .submenu li:hover{
+    background-color: rgb(210, 77, 60);
+}
+
+.page2 .submenu li:hover{
+    background-color: rgb(000, 115, 200);
+}
+
+.page3 .submenu li:hover{
+    background-color: rgb(200, 165, 75);
+}
+
+.page4 .submenu li:hover{
+    background-color: rgb(110, 110, 110);
+}
+
