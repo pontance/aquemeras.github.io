@@ -103,60 +103,8 @@ nav li:hover .submenu{
     background-color: rgba(220, 220, 220, 0.15);
 }
 
-.page1:hover{
-    border-top: 5px solid #e44d26;
-    background-color: rgba(228, 77, 38, 0.15);
-}
-
-.page2:hover{
-    border-top: 5px solid #0070bb;
-    background-color: rgba(000, 112, 192, 0.15);
-}
-
-.page3:hover{
-    border-top: 5px solid #f1dc4f;
-    background-color: rgba(241, 211, 79, 0.15);
-}
-
-.page4:hover{
-    border-top: 5px solid #BBB;
-    background-color: rgba(220, 220, 220, 0.15);
-}
-
-.page1 .submenu{
-    background-color: rgb(230, 100, 40)
-}
-
-.page2 .submenu{
-    background-color: rgb(000, 160, 240)
-}
-
-.page3 .submenu{
-    background-color: rgb(250, 215, 100)
-}
-
-.page4 .submenu{
-    background-color: rgb(220, 220, 220)
-}
 
 .submenu li:hover a {
     color: #EEE;
     font-weight: bold;
 }
-
-.page1 .submenu li:hover{
-    background-color: rgb(210, 77, 60);
-}
-
-.page2 .submenu li:hover{
-    background-color: rgb(000, 115, 200);
-}
-
-.page3 .submenu li:hover{
-    background-color: rgb(200, 165, 75);
-}
-
-.page4 .submenu li:hover{
-    background-color: rgb(110, 110, 110);
-}
-

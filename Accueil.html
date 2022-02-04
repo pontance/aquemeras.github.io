@@ -21,17 +21,10 @@
 
     <div class='box1'>
         <h1>Kotlin</h1>
-        <ul>
-            <li>
-                1ere version en 2016 développé par JetBrains
-            </li>
-            <li>
-                En 2017, Google annonce que Kotlin devient le second langage de programmation officiellement pris en
-                charge par
-                android
 
-            </li>
-        </ul>
+        <video width="640" height="480" controls>
+            <source src="kotlinmovie.mp4" type=video/mp4>
+        </video>
 
         <p>
             C’est un langage de programmation orienté objet et fonctionnel avec un typage statique et permet de compiler
@@ -41,20 +34,22 @@
         <p>
             Il vient combler les défauts de Java pour la programmation sur Android, qui est un langage lourd et verbeux.
             Kotlin adopte donc une syntaxe plus simple. JetBrains a pensé à la compatibilité entre les deux langages, ce
-            qui
-            permet d’utiliser les deux dans un même projet.
+            qui permet d’utiliser les deux dans un même projet.
         </p>
 
         <ul>
-            Avantage
+            <h3>Avantage</h3>
             <li>
-                Concis
+                Syntaxe peu verbeuse (déclarations plus courtes, pas d’accesseurs, etc)
             </li>
             <li>
-                Explicite :
+                Inférence de types
             </li>
             <li>
                 Interopérable avec java
+            </li>
+            <li>
+                Pas de Null
             </li>
             <li>
                 gratuit et open source
@@ -62,36 +57,54 @@
         </ul>
 
         <ul>
-            Inconvénient
+            <h3>Inconvénient</h3>
             <li>
                 Peut générer du code difficile à relire
+            </li>
+            <li>
+                Des comportements par défaut gênants. (exemple: les classes sont finales par défaut)
+            </li>
+            <li>
+                Jeune langage, il y a donc encore assez peu de documentation
             </li>
         </ul>
 
         <p>
-            val(valeur) : immuable <br>
-            var (variable) : On peux modifier le contenu de la variable après son initialisation
+            <h2>Comparaison Kotlin/Java</h2>
+            <h3>Kotlin:</h3>
+            <br>
+            &ensp;fun main() { <br>
+            &emsp;&ensp;println("Hello, World!") <br>
+            &ensp;} <br>
+            <br>
+            <h3>Java</h3>
+            &ensp;class HelloWorld { <br>
+            &emsp;&ensp;public static void main(String[] args) { <br>
+            &emsp;&emsp; System.out.println("Hello, World!"); <br>
+            &emsp;&ensp;} <br>
+            &ensp;} <br>
+            <br>
         </p>
-        <span>
-            exemple :
-            <br>
-            <br>
-            val name: String = "Phil" <br>
-            val age: Int = 27 <br>
-            val isDeveloper: Boolean = true
-
-        </span>
 
         <p>
-            <video width="640" height="480" controls>
-                <source src="kotlinmovie.mp4" type=video/mp4>
-            </video>
+            Kotlin connaît deux types de variables : <br>
+            <li>Les variables qui sont en lecture seul: val (pour valeur)</li>
+            <li>Les variables qui sont modifiable: var (pour variable)</li>
+        </p>
+        <p>
+            exemple :<br>
+            <br>
+            val name: String = "Phil" <br>
+            var age: Int = 27 <br>
+            val isDeveloper: Boolean = true <br>
         </p>
 
-        <span>Source : <br>
+
+        <p><h3>Source : </h3>
             OpenClassRoom: https://openclassrooms.com/fr/courses/5353106-initiez-vous-a-kotlin <br>
-            Youtube: https://www.youtube.com/watch?v=h3gx4YPzEsw
-        </span>
+            Youtube: https://www.youtube.com/watch?v=h3gx4YPzEsw <br>
+            https://www.contentside.com/tour-dhorizon-sur-kotlin/#:~:text=Inconv%C3%A9nients%20de%20Kotlin,des%20bugs%20avec%20Spring%20Framework%20!
+        </p>
     </div>
 
 </body>
