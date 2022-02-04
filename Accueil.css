@@ -108,3 +108,11 @@ nav li:hover .submenu{
     color: #EEE;
     font-weight: bold;
 }
+
+h2{
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+}

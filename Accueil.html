@@ -7,14 +7,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kotlin</title>
     <link rel="stylesheet" href="Accueil.css">
-    <link rel="icon" href="livre.png" />
-
 </head>
 
 <body>
     <nav>
         <ul>
-            <li class="accueil"><a href="file:///C:/Users/arthu/Desktop/VeilleTechno/Accueil.html">Accueil</a>
+            <li class="accueil"><a href="Accueil.html">Accueil</a>
 
         </ul>
     </nav>
@@ -70,40 +68,65 @@
         </ul>
 
         <p>
-            <h2>Comparaison Kotlin/Java</h2>
-            <h3>Kotlin:</h3>
-            <br>
-            &ensp;fun main() { <br>
-            &emsp;&ensp;println("Hello, World!") <br>
-            &ensp;} <br>
-            <br>
-            <h3>Java</h3>
-            &ensp;class HelloWorld { <br>
-            &emsp;&ensp;public static void main(String[] args) { <br>
-            &emsp;&emsp; System.out.println("Hello, World!"); <br>
-            &emsp;&ensp;} <br>
-            &ensp;} <br>
-            <br>
+        <h2>Comparaison Kotlin/Java</h2>
+        <h3>Kotlin:</h3>
+        <br>
+        &ensp;fun main() { <br>
+        &emsp;&ensp;println("Hello, World!") <br>
+        &ensp;} <br>
+        <br>
+        <h3>Java</h3>
+        &ensp;class HelloWorld { <br>
+        &emsp;&ensp;public static void main(String[] args) { <br>
+        &emsp;&emsp; System.out.println("Hello, World!"); <br>
+        &emsp;&ensp;} <br>
+        &ensp;} <br>
+        <br>
         </p>
 
         <p>
+            <h3>Les variables</h3>
             Kotlin connaît deux types de variables : <br>
             <li>Les variables qui sont en lecture seul: val (pour valeur)</li>
             <li>Les variables qui sont modifiable: var (pour variable)</li>
         </p>
         <p>
-            exemple :<br>
-            <br>
             val name: String = "Phil" <br>
             var age: Int = 27 <br>
-            val isDeveloper: Boolean = true <br>
         </p>
 
+        <p>
+        <h3>Les Conditions et boucles</h3>
+        <h4>Condition if</h4>
+        &ensp;var max: Int <br>
+        <br>
+        &ensp;if (a > b) { <br>
+        &ensp;&emsp;max = a <br>
+        &ensp;} else { <br>
+        &ensp; &emsp;max = b <br>
+        &ensp;}
+        </p>
 
-        <p><h3>Source : </h3>
-            OpenClassRoom: https://openclassrooms.com/fr/courses/5353106-initiez-vous-a-kotlin <br>
-            Youtube: https://www.youtube.com/watch?v=h3gx4YPzEsw <br>
-            https://www.contentside.com/tour-dhorizon-sur-kotlin/#:~:text=Inconv%C3%A9nients%20de%20Kotlin,des%20bugs%20avec%20Spring%20Framework%20!
+        <p>
+        <h4>Boucle For</h4>
+        &ensp;for (i in array.indices) { <br>
+        &ensp; &emsp;println(array[i]) <br>
+        &ensp;} <br>
+        </p>
+
+        <p>
+        <h4>Boucle While</h4>
+        &ensp;while (x > 0) { <br>
+        &ensp;&emsp; x-- <br>
+        &ensp;} <br>
+        </p>
+
+        <p>
+        <h3>Source : </h3>
+        OpenClassRoom: https://openclassrooms.com/fr/courses/5353106-initiez-vous-a-kotlin <br>
+        Youtube: https://www.youtube.com/watch?v=h3gx4YPzEsw <br>
+        https://www.contentside.com/tour-dhorizon-sur-kotlin/#:~:text=Inconv%C3%A9nients%20de%20Kotlin,des%20bugs%20avec%20Spring%20Framework%20! <br>
+        https://kotlinlang.org/docs/control-flow.html#while-loops <br>
         </p>
     </div>
 
